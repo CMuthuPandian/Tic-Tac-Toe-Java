@@ -2,10 +2,8 @@ import java.util.Scanner;
 import java.util.InputMismatchException;
 
 public class FinalProject {
-
     private static int xWinCount=0;
     private static int oWinCount=0;
-
     public static void main(String[] args){
         Scanner s = new Scanner(System.in);
         char[][] arr = new char[3][3];
